@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\output.css">
+    <link rel="stylesheet" href="css\style.css">
+    <title>PRACTICE</title>
+</head>
+<body>
+  
+    <div class="bg-blue-400  sm\:bg-black md:bg-yellow-900 lg:bg-green-800  h-100 w-96 flex flex-col ">
+        <h2 class="italic font-bold color text-blue-100 text-center bg-green-800 p-2 ">BMI-CALCULATOR</h2>
+        <div class="bg-yellow-300 mt-2 mx-9 h-48 p-10 rounded">
+            <h3>Height(M)</h3>
+            <input type="number" class="border-t-4 bg-yellow-300 border-l-4 border-r-4 outline-none" id="height">
+
+            <h3>Weight(KG)</h3>
+            <input type="number" class="border-t-4 bg-yellow-300 border-l-4 border-r-4 outline-none" id="weight">
+        </div>
+                <div class="flex justify-center">
+                    <button class="bg-red-500 text-center mt-2 w-40 p-5 rounded-full text-blue-600 italic font-extrabold" onclick="cal()">calculate</button>
+                </div>
+        <div class="flex justify-center">
+            <p id="result" class="bg-gray-300 text-center mt-2 w-24 p-5 rounded-full ">00.00</p>
+        </div>
+
+        <div class="flex justify-center flex-col">
+            <h3 id="demo1" class="text-gray-300">Comment:</h3>
+           </div>
+
+    </div>
+
+    <script src="BMI CALCULATOR PROJECT\BMI.JS"></script>
+
+</body>
+</html>
